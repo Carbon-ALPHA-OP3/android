@@ -10,6 +10,11 @@
            remote="aosp"
            sync-j="4" />
   
+  <remote  name="aicp"
+           fetch="https://github.com/"
+           review="gerrit.aicp-rom.com"
+           revision="refs/heads/n7.1" />
+  
   <remote  name="github"
            fetch=".."
            review="review.lineageos.org" />
