@@ -9,6 +9,10 @@
            sync-c="true"
            remote="aosp"
            sync-j="4" />
+  
+  <remote  name="github"
+           fetch=".."
+           review="review.lineageos.org" />
 
   <project path="build" name="platform/build" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
